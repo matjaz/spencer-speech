@@ -10,6 +10,10 @@ Service URL can be configured in [Spencer Firmware][spencer-firmware]. See [Spee
 ## 3. Text to speech
 Spencer comes with built-in [text to speech][TTS-class] synthesis service.
 
+## Speech service.
+For Slovenian I used Azure speech services since Google speech services (Spencer's default) does not support Slovenian language.
+For languages supported by Google speech, you just need to change the language code and pregenerate sentences.
+
 ## License
 
 MIT
