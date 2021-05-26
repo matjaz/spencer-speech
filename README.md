@@ -17,6 +17,10 @@ Spencer comes with built-in [text to speech][TTS-class] synthesis service.
 For Slovenian I used Azure speech services since Google speech services (Spencer's default) does not support Slovenian language.
 For languages supported by Google speech, you just need to change the language code and pregenerate sentences (step 1).
 
+## Result
+
+[![Spencer understanding and speaking Slovene][demo-img]][demo-video]
+
 ## License
 
 MIT
@@ -29,3 +33,5 @@ MIT
    [serial-uploader]: https://github.com/CircuitMess/SerialUploader
    [STI-class]: https://github.com/CircuitMess/Spencer-Library/blob/master/src/Speech/SpeechToIntent.cpp
    [TTS-class]: https://github.com/CircuitMess/Spencer-Library/blob/master/src/Speech/TextToSpeech.cpp
+   [demo-img]: https://i.imgur.com/EBZeMQ6.jpg
+   [demo-video]: https://www.dropbox.com/s/1m6013uw7hd9905/spencer.mp4?dl=0
